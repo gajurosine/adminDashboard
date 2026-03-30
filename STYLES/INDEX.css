@@ -4,10 +4,7 @@ padding: 0;
  font-family: 'Montserrat', sans-seri;
 }
 
-.menu-icon{
-    display: none;
-    color: #f5f4f4;
-}
+
 
 
 .grid-container{
@@ -26,6 +23,7 @@ color: #f5f4f4;
   font-family: 'Material Symbols Outlined';
   color: #f5f4f4;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .header{
@@ -35,9 +33,25 @@ color: #f5f4f4;
 display: flex;
 align-items: center;
 justify-content: space-between;
-padding: 0 30px 0 30px;
+padding: 0 30px;
 box-shadow: 0px 6px 7px -3px rgba(117, 113, 113, 0.35);
 }
+
+.header-left{
+    display: flex;
+    align-items:center;
+    gap: 15px;
+    margin-left: 150vh;
+}
+
+.menu-icon{
+    display: block;
+    cursor: pointer;
+    z-index: 1000;
+    color: #049629;
+}
+
+
 
 #sidebar{
     grid-area: sidebar;
