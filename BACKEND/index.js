@@ -14,3 +14,5 @@ function closeSidebar(){
         sidebarOpen=false;
     }
 }
+
+
