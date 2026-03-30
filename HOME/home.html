@@ -6,11 +6,13 @@
     <title>Admin Dashboard</title>
 
     <!--montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <!--material-icons link-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="../STYLES/INDEX.css">
 </head>
 <body>
-    <dic class="grid-container">
+    <div class="grid-container">
         <!-- header -->
         <header class="header">
             <div class="menu-icon" onclick="openSidebar()">
@@ -53,27 +55,39 @@ close
 
             <ul class="sidebar-list">
                 <li class="sidebar-list-item">
-                    <span>Dashboard</span>Dashboard
+                    <span class="material-symbols-outlined">
+dashboard
+</span>Dashboard
                 </li>
                  <li class="sidebar-list-item">
-                    <span>Inventary_2</span>Products
+                    <span class="material-symbols-outlined">
+inventory_2
+</span>Products
                 </li>
                  <li class="sidebar-list-item">
-                    <span>category</span>Categories
+                 <span class="material-symbols-outlined">
+category
+                 </span>Categories
+                </li>
+                      <li class="sidebar-list-item">
+                    <span class="material-symbols-outlined">
+check_circle
+</span>Orders 
                 </li>
                  <li class="sidebar-list-item">
-                    <span>Group</span>Customers
-                </li>
-                 <li class="sidebar-list-item">
-                    <span>fact-check</span>Inventary_2
+                  <span class="material-symbols-outlined">
+group
+</span>Users
                 </li>
 
                  <li class="sidebar-list-item">
-                    <span>poll</span>Reports
+                    <span class="material-symbols-outlined">poll</span> Reports
                 </li>
 
                  <li class="sidebar-list-item">
-                    <span>Setting</span>Setting
+                   <span class="material-symbols-outlined">
+settings
+</span>Settings  
                 </li>
             </ul>
         </aside>
@@ -84,7 +98,7 @@ close
         <main class="main-container"></main>
 
         <!--End of main -->
-    </dic>
+    </div>
     <script  src="../BACKEND/index.js"></script>
 </body>
 </html>
